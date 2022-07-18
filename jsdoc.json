@@ -1,0 +1,46 @@
+{
+  "tags": {
+    "allowUnknownTags": ["category", "subcategory"]
+  },
+  "source": {
+    "include": ["./src"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": [
+    "node_modules/better-docs/category"
+  ],
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs/",
+    "readme": "readme.md",
+    "recurse": true,
+    "verbose": true,
+    "template": "./node_modules/better-docs"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "search": true,
+    "default": {
+        "staticFiles": {
+          "include": [
+              "./docs-src/statics"
+          ]
+        }
+    },
+    "better-docs": {
+        "name": "Sample Documentation",
+        "logo": "images/logo.png",
+        "title": "",
+        "css": "style.css",
+        "hideGenerator": false,
+        "navLinks": [
+            {
+                "label": "Github",
+                "href": "https://github.com/Artridem/discord-erector"
+            }
+        ]
+    }
+}
+}

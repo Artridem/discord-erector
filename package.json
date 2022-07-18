@@ -1,0 +1,32 @@
+{
+  "name": "discord-erector",
+  "version": "0.0.1",
+  "description": "Discord bot erector",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artridem/discord-erector.git"
+  },
+  "author": "Artridem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artridem/discord-erector/issues"
+  },
+  "homepage": "https://github.com/Artridem/discord-erector#readme",
+  "dependencies": {
+    "better-docs": "^2.7.2",
+    "discord.js": "^14.0.1",
+    "jsdoc": "^3.6.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
