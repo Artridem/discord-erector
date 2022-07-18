@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Artridem/discord-erector#readme",
   "dependencies": {
     "better-docs": "^2.7.2",
-    "discord.js": "^13.8.1",
+    "discord.js": "^14.0.1",
     "jsdoc": "^3.6.10"
   },
   "devDependencies": {
